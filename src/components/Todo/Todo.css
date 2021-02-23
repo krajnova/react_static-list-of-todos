@@ -1,0 +1,11 @@
+.done {
+  color: green;
+}
+
+.in-progress {
+  color: red;
+}
+
+.todo-title {
+  margin-bottom: 10px;
+}

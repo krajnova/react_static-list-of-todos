@@ -1,0 +1,14 @@
+.todo-list {
+  display: grid;
+  row-gap: 30px;
+  column-gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
+  list-style: none;
+  padding-left: 0;
+}
+
+@media (max-width: 768px) {
+  .todo-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
